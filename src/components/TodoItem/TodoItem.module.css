@@ -1,5 +1,23 @@
 .item {
-	padding: 16px 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	font-size: 1.125rem;
+	padding: 12px 32px;
 	border: 2px solid white;
 	border-radius: 8px;
+	font-weight: 500;
+}
+
+.button {
+	background-color: #e16162;
+	min-width: fit-content;
+}
+
+@media (max-width: 550px) {
+	.item {
+		padding: 8px 16px;
+		gap: 10px;
+	}
 }

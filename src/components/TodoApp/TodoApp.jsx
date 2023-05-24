@@ -8,7 +8,7 @@ function TodoApp() {
 	return (
 		<>
 			<TodoInput itemsList={itemsList} setItemsList={setItemsList} />
-			<TodoList itemsList={itemsList} />
+			<TodoList itemsList={itemsList} setItemsList={setItemsList} />
 		</>
 	);
 }

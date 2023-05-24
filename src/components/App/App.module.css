@@ -9,8 +9,12 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	gap: 30px;
+	padding-block-start: 3rem;
+	padding-block-end: 3rem;
+	padding-inline: 1rem;
 	min-height: 100%;
 }
 
@@ -20,4 +24,8 @@
 
 .read-the-docs {
 	color: #888;
+}
+
+.h1 {
+	font-size: var(--font-size-h1);
 }
