@@ -19,6 +19,7 @@ A simple app to make the grocery list! 🛒
 
 - Basic CRUD with React.
 - CSS modules.
+- Fluid typography.
 - Prop drilling.
 
 ## Going further 🚀
