@@ -6,7 +6,7 @@ function TodoList({ itemsList, setItemsList }) {
 	if (!itemsList) return;
 
 	return (
-		<div className={styles.list}>
+		<ul className={styles.list}>
 			{itemsList.map(({ name, id }) => (
 				<TodoItem
 					key={id}
@@ -16,7 +16,7 @@ function TodoList({ itemsList, setItemsList }) {
 					{name}
 				</TodoItem>
 			))}
-		</div>
+		</ul>
 	);
 }
 

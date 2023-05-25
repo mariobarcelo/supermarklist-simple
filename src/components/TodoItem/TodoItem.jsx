@@ -4,7 +4,7 @@ import VisuallyHidden from '../VisuallyHidden';
 
 function TodoItem({ id, children, itemsList, setItemsList }) {
 	return (
-		<div className={styles.item}>
+		<li className={styles.item}>
 			<p>{children}</p>
 			<button
 				className={styles.button}
@@ -21,7 +21,7 @@ function TodoItem({ id, children, itemsList, setItemsList }) {
 				<X color={'#fffffe'} />
 				<VisuallyHidden>Delete item</VisuallyHidden>
 			</button>
-		</div>
+		</li>
 	);
 }
 
